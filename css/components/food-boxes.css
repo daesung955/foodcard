@@ -1,5 +1,18 @@
 .food-boxes {
-    width: 200px;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-box-pizza {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.food-box-chicken{
+    width: 500px;
+    height: 500px;
     background-color: orange;
 }
