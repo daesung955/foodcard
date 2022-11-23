@@ -5,14 +5,140 @@
     align-items: center;
 }
 
+/*  피자   */
+
 .food-box-pizza {
     width: 500px;
     height: 500px;
     background-color: red;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/*  배달어플 텍스트,박스  */
+
+.food-box-pizza-box {
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    bottom: 250px;
+    opacity: 0.9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.food-box-pizza-box h6 {
+    font-size: 16px;
+    font-weight: 1000;
+}
+
+.food-box-pizza-box-arrow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-box-pizza-box-arrow i {
+    color: white;
+}
+
+/*  요기요 텍스트박스  */
+
+.food-box-pizza-box-two {
+    bottom: 150px;
+}
+
+.food-box-pizza-box-two-arrow {
+    margin-left: 62px;
+}
+
+/*  쿠팡이츠 텍스트박스   */
+
+
+.food-box-pizza-box-three {
+    bottom: 50px;
+}
+
+.food-box-pizza-box-three-arrow {
+    margin-left: 45px;
+}
+
+
+/*  치킨  */
 
 .food-box-chicken{
     width: 500px;
     height: 500px;
     background-color: orange;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*  배달어플 텍스트,박스  */
+
+.food-box-chicken-box{
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    bottom: 250px;
+    opacity: 0.9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-box-chicken-box h6 {
+    font-size: 16px;
+    font-weight: 1000;
+}
+
+.food-box-chicken-box-arrow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-box-chicken-box-arrow i {
+    color: white;
+}
+
+/*  요기요 텍스트 박스  */
+
+.food-box-chicken-box-two {
+    bottom: 150px;
+}
+
+.food-box-chicken-box-two-arrow {
+    margin-left: 62px;
+}
+
+/*  쿠팡이츠 텍스트 박스  */
+
+.food-box-chicken-box-three {
+    bottom: 50px;
+}
+
+.food-box-chicken-box-three-arrow {
+    margin-left: 45px;
 }
